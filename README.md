@@ -356,18 +356,6 @@ UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
 
 ---
 
-## 💻 개발 환경
-
-| 구분 | 내용 |
-|---|---|
-| Engine | Unity 6000.3.9f1 |
-| Language | C# |
-| Data | Excel CSV |
-| Version Control | Git / GitHub |
-| Platform | PC |
-
----
-
 ## 📁 프로젝트 구조
 
 ```txt
