@@ -405,44 +405,12 @@ Assets/
 ## 🚀 향후 개발 계획
 
 - [ ] 손님별 특성 추가
+- [ ] 재료의 재고 관리 기능 추가
+- [ ] 상점 기능 추가
+- [ ] 냉장고 재고 보관기능 추가
 - [ ] 주문 확률 조정 시스템 추가
 - [ ] 이벤트 / 버프 시스템 추가
-- [ ] 레벨 업에 따른 스테이지 전환
 - [ ] 난이도별 목표 금액 조정
 - [ ] 새로운 재료 및 레시피 추가
 - [ ] 튜토리얼 UI 추가
-- [ ] 결과 화면 개선
-
----
-
-## 🧡 프로젝트 한 줄 소개
-
-> **햄치토**는 귀여운 햄스터 셰프와 함께  
-> 재료를 굽고, 쌓고, 포장하며 손님을 만족시키는  
-> 아기자기한 요리 타이쿤 게임입니다.
-
----
-
-## 📂 이미지 파일 배치 안내
-
-README에서 이미지가 보이게 하려면 프로젝트에 아래처럼 이미지를 넣어주세요.
-
-```txt
-docs/
-└─ images/
-   ├─ ham-cheeto-banner.png
-   ├─ title.png
-   ├─ gameplay-toast.png
-   ├─ cooking-ingredients.png
-   ├─ packaging-toast.png
-   └─ customer-order.png
-```
-
-| 파일명 | 추천 이미지 |
-|---|---|
-| `ham-cheeto-banner.png` | 햄치토 로고와 햄스터가 있는 대표 이미지 |
-| `title.png` | 타이틀 화면 |
-| `gameplay-toast.png` | 빵을 잡고 조작하는 기본 화면 |
-| `cooking-ingredients.png` | 계란, 햄, 치즈 조리 화면 |
-| `packaging-toast.png` | 포장지 위에 토스트를 올린 화면 |
-| `customer-order.png` | 손님 주문 및 목표 금액 화면 |
+- [ ] 타이틀 및 결과 화면 개선
