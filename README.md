@@ -1,9 +1,5 @@
 <!-- README.md -->
 
-<p align="center">
-  <img src="docs/images/ham-cheeto-banner.png" width="780" alt="햄치토 Ham-Cheeto 배너" />
-</p>
-
 <h1 align="center">🐹 햄치토 Ham-Cheeto 🧀</h1>
 
 <p align="center">
