@@ -1,4 +1,4 @@
-<!-- README.md -->
+<img width="511" height="504" alt="image" src="https://github.com/user-attachments/assets/a7d69636-98b7-4201-afcb-bd2dff25e16e" /><!-- README.md -->
 
 <h1 align="center">🐹 햄치토 Ham-Cheeto 🧀</h1>
 
@@ -74,7 +74,7 @@
 제한 시간 내 목표 금액 달성
 ```
 
-** 전체적인 게임 목표
+**전체적인 게임 목표**
 
 1. **손님의 주문서에 맞춰 재료를 조리하고 토스트 완성하기**
 2. **완성한 토스트를 포장하고 손님에게 제공하기**
@@ -87,7 +87,7 @@
 게임은 크게 **싱글톤 매니저 구조**, **클릭 기반 조작 시스템**,  
 그리고 **재료 / 토스트 / 주문 데이터 관리 구조**를 중심으로 구성했습니다.
 
-** 🔹 싱글톤 매니저
+**🔹 싱글톤 매니저**
 
 | 매니저 | 역할 |
 |---|---|
@@ -112,7 +112,7 @@ CursorController
 
 ---
 
-** 🔹 클릭 기반 조작
+** 🔹 클릭 기반 조작 **
 
 게임 내 상호작용 가능한 오브젝트는  
 공통 부모 클래스인 `ClickableObject`를 상속하도록 구성했습니다.
@@ -135,7 +135,7 @@ ClickableObject
 
 ## ✨ 주요 구현 기능
 
-** 🥚 1. 재료 상태 변경 로직
+**🥚 1. 재료 상태 변경 로직**
 
 각 재료는 `Type`과 `State`를 `Enum`으로 관리합니다.
 
@@ -175,7 +175,7 @@ Raw → Cooking → Cooked → Burnt
 
 ---
 
-** 🥪 2. 아이템 조합 로직
+**🥪 2. 아이템 조합 로직**
 
 토스트는 여러 재료를 순서대로 쌓아 완성합니다.
 
@@ -206,7 +206,7 @@ List<Ingredient> toastStack = new List<Ingredient>();
 
 ---
 
-** 🐱 3. 손님 응대 로직
+**🐱 3. 손님 응대 로직**
 
 손님의 주문은 `CSV` 파일을 기반으로 관리했습니다.
 
@@ -239,7 +239,7 @@ currentOrder == toastData
 
 ---
 
-** 💰 4. 시간과 목표 금액 시스템
+**💰 4. 시간과 목표 금액 시스템**
 
 플레이어는 제한 시간 안에 목표 금액을 달성해야 합니다.
 
@@ -264,7 +264,7 @@ currentOrder == toastData
 
 개발 과정에서 발생한 주요 문제와 해결 방식입니다.
 
-** 1. 씬 전환 시 오브젝트 참조 누락
+**1. 씬 전환 시 오브젝트 참조 누락**
 
 씬 전환 시 버튼 `Action`과 `AudioSource`에서  
 `Missing Reference` 문제가 발생했습니다.
@@ -277,7 +277,7 @@ currentOrder == toastData
 
 ---
 
-** 2. 소스류 재료 배치 문제
+**2. 소스류 재료 배치 문제**
 
 처음에는 소스류를 일반 `Ingredient`로 지정했으나,  
 소스를 “들어 올리는” 액션이 부자연스럽게 느껴졌습니다.
@@ -290,7 +290,7 @@ currentOrder == toastData
 
 ---
 
-** 3. Sorting Order 처리 문제
+**3. Sorting Order 처리 문제**
 
 마우스로 집은 오브젝트를 앞으로 가져오는 과정에서  
 UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
@@ -303,7 +303,7 @@ UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
 
 ---
 
-** 4. 좌표계 혼동 문제
+**4. 좌표계 혼동 문제**
 
 `Screen Space - Overlay`, `Camera`, `World Space` 간의 차이로 인해  
 오브젝트가 의도치 않은 위치로 이동하는 문제가 있었습니다.
@@ -318,7 +318,7 @@ UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
 
 ## 📸 플레이 화면
 
-** 🧀 타이틀 화면
+**🧀 타이틀 화면**
 
 <p align="center">
   <img src="docs/images/title.png" width="700" alt="햄치토 타이틀 화면" />
@@ -326,7 +326,7 @@ UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
 
 ---
 
-** 🍞 기본 조작 화면
+**🍞 기본 조작 화면**
 
 <p align="center">
   <img src="docs/images/gameplay-toast.png" width="700" alt="토스트 조작 화면" />
@@ -334,7 +334,7 @@ UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
 
 ---
 
-** 🥚 재료 조리
+**🥚 재료 조리**
 
 <p align="center">
   <img src="docs/images/cooking-ingredients.png" width="700" alt="재료 조리 화면" />
@@ -342,7 +342,7 @@ UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
 
 ---
 
-** 📦 토스트 포장
+**📦 토스트 포장**
 
 <p align="center">
   <img src="docs/images/packaging-toast.png" width="700" alt="토스트 포장 화면" />
@@ -350,7 +350,7 @@ UI와 월드 오브젝트 간 렌더링 순서 문제가 발생했습니다.
 
 ---
 
-** 🐱 손님 응대
+**🐱 손님 응대**
 
 <p align="center">
   <img src="docs/images/customer-order.png" width="700" alt="손님 주문 화면" />
