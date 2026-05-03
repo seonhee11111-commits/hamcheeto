@@ -1,5 +1,3 @@
-<img width="511" height="504" alt="image" src="https://github.com/user-attachments/assets/a7d69636-98b7-4201-afcb-bd2dff25e16e" /><!-- README.md -->
-
 <h1 align="center">🐹 햄치토 Ham-Cheeto 🧀</h1>
 
 <p align="center">
